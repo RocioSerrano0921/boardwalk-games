@@ -33,8 +33,8 @@ h3 {
 }
 
 main {
-    /* if we dont want to use Bootstrap we could use to make the footer going to the very bottom  (in this case we ARE USING BOOTSTRAP)
-    flex: 1 0 auto; allows main to grow and shrink, but not to be smaller than its content */
+    /* if we dont want to use Bootstrap we could use flex: 1 0 auto; along with the body flex...to make the footer going to the very bottom  (in this case we ARE USING BOOTSTRAP)
+     allows main to grow and shrink, but not to be smaller than its content */
 }
 /* grid visualization CSS for testing */
 
