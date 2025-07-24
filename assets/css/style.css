@@ -26,7 +26,15 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+}
+
+h1,
+h2 {
     text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 2rem;
 }
 
 .sub-heading-color {
@@ -53,6 +61,19 @@ h3 {
     font-family: var(--secondary-font);
 }
 
+/* Main  */
+/* Services Section */
+
+#services .card-footer {
+    font-weight: bold;
+    color: var(--highlight-color);
+    background-color: transparent;
+}
+
+#services .card {
+    margin-bottom: 1.5rem;
+}
+/*  */
 /* main { */
 /* if we dont want to use Bootstrap we could use flex: 1 0 auto; along with the body flex...to make the footer going to the very bottom  (in this case we ARE USING BOOTSTRAP)
      allows main to grow and shrink, but not to be smaller than its content */
