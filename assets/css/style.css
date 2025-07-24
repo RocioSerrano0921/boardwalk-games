@@ -32,17 +32,17 @@ h3 {
     color: var(--highlight-color);
 }
 
-main {
-    /* if we dont want to use Bootstrap we could use flex: 1 0 auto; along with the body flex...to make the footer going to the very bottom  (in this case we ARE USING BOOTSTRAP)
+/* main { */
+/* if we dont want to use Bootstrap we could use flex: 1 0 auto; along with the body flex...to make the footer going to the very bottom  (in this case we ARE USING BOOTSTRAP)
      allows main to grow and shrink, but not to be smaller than its content */
-}
+/* } */
 /* grid visualization CSS for testing */
 
-.container,
+/* .container,
 .row {
     border: 2px solid black;
 }
 .col-12 {
     border: 1px solid white;
-    background-color: lightblue;
-}
+    background-color: lightgray;
+} */
