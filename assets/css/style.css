@@ -143,12 +143,14 @@ h2 {
     color: var(--secondary-color);
     font-size: 1.2rem;
     margin-right: 15px;
-    transition: color 0.3s ease-in-out;
 }
 
 #contact .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
 }
 #contact .social-links i:hover {
     color: var(--secondary-color);
@@ -158,6 +160,7 @@ h2 {
 #contact .table-dark * {
     background-color: transparent !important;
 }
+
 /* Media queries */
 
 /* Medium devices (tablets, 768px and up) */
@@ -191,18 +194,3 @@ h2 {
         min-height: 195px;
     }
 }
-
-/* main { */
-/* if we dont want to use Bootstrap we could use flex: 1 0 auto; along with the body flex...to make the footer going to the very bottom  (in this case we ARE USING BOOTSTRAP)
-     allows main to grow and shrink, but not to be smaller than its content */
-/* } */
-/* grid visualization CSS for testing */
-
-/* .container,
-.row {
-    border: 2px solid black;
-}
-.col-12 {
-    border: 1px solid white;
-    background-color: lightgray;
-} */
