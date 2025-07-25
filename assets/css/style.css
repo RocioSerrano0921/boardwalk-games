@@ -13,12 +13,13 @@
 
 /* Global Styles */
 
-body {
-    font-family: var(--primary-font);
-    /* We could do to ensure the body takes up the full heigh and allows for flexbox layout 
+/* We could do to ensure the body takes up the full heigh and allows for flexbox layout 
       min-height: 100vh;
     display: flex;
     flex-direction: column;*/
+body {
+    font-family: var(--primary-font);
+    padding-top: 57.15px; /* To push the top of the header down under the fixed navbar */
 }
 
 h1,
