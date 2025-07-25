@@ -19,7 +19,7 @@
     flex-direction: column;*/
 body {
     font-family: var(--primary-font);
-    padding-top: 57.15px; /* To push the top of the header down under the fixed navbar */
+    padding-top: 57.15px; /* To push the top of the header down under the fixed */
 }
 
 h1,
@@ -43,7 +43,7 @@ h2 {
 }
 
 .section {
-    margin-top: 2rem;
+    padding-top: 4rem; /* Padding to push the section down under the fixed navbar */
     margin-bottom: 2rem;
 }
 
